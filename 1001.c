@@ -1,17 +1,15 @@
-//Exercício 1001
-
 #include <stdio.h>
 
 int main() {
 
-    int A, B, X;
+    int a, b, x;
 
-    scanf ("%d", &A);
-    scanf ("%d", &B);
+    scanf ("%d", &a);
+    scanf ("%d", &b);
 
-    X = A+B;
+    x = a+b;
 
-    printf ("X = %d\n", X);
+    printf ("X = %d\n", x);
 
     return 0;
 }
