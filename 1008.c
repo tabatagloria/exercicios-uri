@@ -4,16 +4,16 @@
 
 int main() {
 
-    int NUMBER, HORAS;
-    float SAL_HORA, SALARY;
+    int number, horas;
+    float sal_hora, salary;
 
-    scanf ("%d", &NUMBER);
-    scanf ("%d", &HORAS);
-    scanf ("%f", &SAL_HORA);
+    scanf ("%d", &number);
+    scanf ("%d", &horas);
+    scanf ("%f", &sal_hora);
 
-    SALARY = HORAS * SAL_HORA;
+    salary = horas * sal_hora;
 
-    printf ("NUMBER = %d\nSALARY = U$ %.2f\n", NUMBER, SALARY);
+    printf ("NUMBER = %d\nSALARY = U$ %.2f\n", number, salary);
 
     return 0;
 }

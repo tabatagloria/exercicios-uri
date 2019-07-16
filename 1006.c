@@ -4,15 +4,15 @@
 
 int main() {
 
-double A, B, C, MEDIA;
+double a, b, c, media;
 
-scanf ("%lf", &A);
-scanf ("%lf", &B);
-scanf ("%lf", &C);
+scanf ("%lf", &a);
+scanf ("%lf", &b);
+scanf ("%lf", &c);
 
-MEDIA = (A*2+B*3+C*5)/10;
+media = (a*2 + b*3 + c*5)/10;
 
-printf ("MEDIA = %.1lf\n", MEDIA);
+printf ("MEDIA = %.1lf\n", media);
 
     return 0;
 }

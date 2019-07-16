@@ -4,16 +4,16 @@
 
 int main() {
 
-    int A, B, C, D, DIFERENCA;
+    int a, b, c, d, diferenca;
 
-    scanf ("%d", &A);
-    scanf ("%d", &B);
-    scanf ("%d", &C);
-    scanf ("%d", &D);
+    scanf ("%d", &a);
+    scanf ("%d", &b);
+    scanf ("%d", &c);
+    scanf ("%d", &d);
 
-    DIFERENCA = (A * B - C * D);
+    diferenca = (a * b - c * d);
 
-    printf ("DIFERENCA = %d\n", DIFERENCA);
+    printf ("DIFERENCA = %d\n", diferenca);
 
     return 0;
 }

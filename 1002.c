@@ -4,13 +4,13 @@
 
 int main() {
 
-    double AREA, RAIO;
+    double area, raio;
 
-    scanf ("%lf", &RAIO);
+    scanf ("%lf", &raio);
 
-    AREA = 3.14159*(RAIO*RAIO);
+    area = 3.14159*(raio*raio);
 
-    printf ("A=%.4lf\n", AREA);
+    printf ("A=%.4lf\n", area);
 
     return 0;
 }

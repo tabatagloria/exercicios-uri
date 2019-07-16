@@ -2,14 +2,14 @@
 
 int main() {
 
-    int A, B, SOMA;
+    int a, b, soma;
 
-    scanf ("%d", &A);
-    scanf ("%d", &B);
+    scanf ("%d", &a);
+    scanf ("%d", &b);
 
-    SOMA = A+B;
+    soma = a+b;
 
-    printf ("SOMA = %d\n", SOMA);
+    printf ("SOMA = %d\n", soma);
 
     return 0;
 }

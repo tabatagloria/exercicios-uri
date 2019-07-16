@@ -5,14 +5,15 @@
 int main() {
 
     char nome[30];
-    double salario, vendas, TOTAL;
+    double salario, vendas, total;
 
-    printf ("Primeiro nome do vendedor: ");
     scanf ("%s", &nome);
     scanf ("%lf", &salario);
     scanf ("%lf", &vendas);
 
-    printf ("TOTAL = R$ %.2lf\n", TOTAL=salario+vendas*0.15);
+    total = salario+vendas*0.15;
+
+    printf ("TOTAL = R$ %.2lf\n", total);
 
     return 0;
 }
