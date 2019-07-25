@@ -1,5 +1,3 @@
-//Exercicio 1010
-
 #include <stdio.h>
 
 int main() {

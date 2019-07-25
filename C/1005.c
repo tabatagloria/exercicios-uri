@@ -1,5 +1,3 @@
-//Exercicio 1005
-
 #include <stdio.h>
 
 int main() {
@@ -9,7 +7,7 @@ int main() {
     scanf ("%lf", &a);
     scanf ("%lf", &b);
 
-    MEDIA = (a*3.5 + b*7.5) / 11;
+    media = (a*3.5 + b*7.5) / 11;
 
     printf ("MEDIA = %.5lf\n", media);
 
