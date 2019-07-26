@@ -1,15 +1,14 @@
-//Exercicio 1003
+#include <stdio.h>
 
 int main() {
-
     int a, b, soma;
 
-    scanf ("%d", &a);
-    scanf ("%d", &b);
+    scanf("%d", &a);
+    scanf("%d", &b);
 
-    soma = a+b;
+    soma = a + b;
 
-    printf ("SOMA = %d\n", soma);
+    printf("SOMA = %d\n", soma);
 
     return 0;
 }
