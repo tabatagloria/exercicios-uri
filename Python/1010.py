@@ -6,6 +6,6 @@ cod2 = int(input())
 pecas2 = int(input())
 valor2 = float(input())
 
-total = pecas1*valor1 + pecas2*valor2
+total = pecas1 * valor1 + pecas2 * valor2
 
-print('VALOR A PAGAR: R$ {}\n' .format(round(total, 2)))
+print('VALOR A PAGAR: R$ {}\n'.format(round(total, 2)))

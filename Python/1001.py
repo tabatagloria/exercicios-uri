@@ -3,4 +3,4 @@ b = int(input())
 
 x = a + b
 
-print('X = {}\n' .format(x))
+print('X = {}\n'.format(x))
