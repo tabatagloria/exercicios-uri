@@ -9,7 +9,7 @@ int main() {
     segundo = n % 60;
     hora = minuto / 60;
 
-    if (minuto >= 60) { 
+    if (minuto >= 60) {
         minuto = minuto - (hora * 60);
     }
     printf("%d:%d:%d\n", hora, minuto, segundo);
