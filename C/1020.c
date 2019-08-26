@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-
     int n, ano, d, meses, dias;
 
     scanf("%d", &n);

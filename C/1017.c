@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main() {
     double litros, tempo, velocidade;
 
     scanf("%lf", &tempo);

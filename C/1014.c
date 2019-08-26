@@ -11,5 +11,4 @@ int main() {
     printf("%.3lf km/l\n", consumo);
 
     return 0;
-
 }
