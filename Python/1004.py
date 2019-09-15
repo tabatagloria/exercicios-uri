@@ -3,4 +3,4 @@ b = int(input())
 
 prod = a * b
 
-print('PROD = {}\n'.format(prod))
+print('PROD = {}'.format(prod))

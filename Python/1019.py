@@ -7,4 +7,4 @@ hora = minuto // 60
 if minuto >= 60:
     minuto = minuto - (hora * 60)
 
-print('{}:{}:{}\n'.format(hora, minuto, segundo))
+print('{}:{}:{}'.format(hora, minuto, segundo))

@@ -4,4 +4,4 @@ c = float(input())
 
 media = (a * 2 + b * 3 + c * 5) / 10
 
-print('MEDIA = {}\n'.format(round(media, 1)))
+print('MEDIA = {}'.format(round(media, 1)))

@@ -1,5 +1,3 @@
 raio = float(input())
 
-area = 3.14159 * (raio * raio)
-
-print('A = {}\n'.format(round(area, 4)))
+print('A={:.4}'.format(area = 3.14159 * pow(raio, 2))

@@ -1,9 +1,9 @@
 n = int(input())
-lista = [100.00, 50.00, 20.00, 10.00, 5.00, 2.00, 1.00]
+lista = [100, 50, 20, 10, 5, 2, 1]
 
-print('{}\n'.format(n))
+print('{}'.format(n))
 
 for i in lista:
     notas = n // i
     n = n % i
-    print('{:.0f} nota(s) de R$ {:.2f}'.format(notas, i))
+    print('{} nota(s) de R$ {},00'.format(notas, i))

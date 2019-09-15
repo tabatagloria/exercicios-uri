@@ -5,4 +5,4 @@ y2 = float(input())
 
 distancia = pow(pow((x2 - x1), 2) + pow((y2 - y1), 2), 1/2)
 
-print('{:.4f}\n'.format(distancia))
+print('{:.4f}'.format(distancia))
